@@ -2,3 +2,6 @@ audio2.spotify.com
 clients6.google.com
 d3rt1990lpmkn.cloudfront.net
 weblb-wg.gslb.spotify.com
+sdklog.tvstore.opera.com
+vstlsrv.com
+www.portaltv.tv

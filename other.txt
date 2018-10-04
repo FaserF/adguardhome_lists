@@ -5,3 +5,12 @@ weblb-wg.gslb.spotify.com
 sdklog.tvstore.opera.com
 vstlsrv.com
 www.portaltv.tv
+adclick.g.doublecklick.net
+adeventtracker.spotify.com
+ads-fa.spotify.com
+analytics.spotify.com
+b.scorecardresearch.com
+bounceexchange.com
+bs.serving-sys.com
+content.bitsontherun.com
+core.insightexpressai.com

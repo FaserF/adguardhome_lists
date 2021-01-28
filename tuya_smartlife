@@ -1,0 +1,6 @@
+#Do not block if you dont control your devices locally. 
+#I am using HomeAssistant to control my devices via there and dont need my devices to speak with chinese servers
+
+px1.tuyaeu.com
+a.tuyaeu.com
+mq.gw.tuyaeu.com

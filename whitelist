@@ -306,7 +306,9 @@ skydeutschland.sc.omtrdc.net
 dns.google.com
 i3-img.prosieben.de
 update.miui.com
-
+insights-collector.newrelic.com
+i5-img.7tv.de
+fls-na.amazon.com
 
 
 
@@ -1044,6 +1046,9 @@ g00.msn.com
 www.sdad.guru
 c.msn.com
 activity.windows.com # Sync 
+microsoft.com
+windows.com
+microsoftonline-p.com
 
 # Windows 10 update
 au.download.windowsupdate.com

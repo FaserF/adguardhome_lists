@@ -310,6 +310,21 @@ insights-collector.newrelic.com
 i5-img.7tv.de
 fls-na.amazon.com
 
+#Microsoft Autopilot
+https://ekop.intel.com/ekcertservice
+https://ekcert.spserv.microsoft.com/EKCertificate/GetEKCertificate/v1
+https://ftpm.amd.com/pki/aia
+login.microsoftonline.com
+*.officeconfig.msocdn.com
+config.office.com
+graph.windows.net
+enterpriseregistration.windows.net
+portal.manage.microsoft.com
+m.manage.microsoft.com	
+fef.msuc03.manage.microsoft.com	
+wip.mam.manage.microsoft.com
+mam.manage.microsoft.com
+*.manage.microsoft.com
 
 
 ## This whitelist maintaince by @ookangzheng

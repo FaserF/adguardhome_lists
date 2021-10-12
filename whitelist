@@ -328,7 +328,6 @@ https://ftpm.amd.com/pki/aia
 login.microsoftonline.com
 *.officeconfig.msocdn.com
 config.office.com
-graph.windows.net
 enterpriseregistration.windows.net
 portal.manage.microsoft.com
 m.manage.microsoft.com	
@@ -336,5 +335,7 @@ fef.msuc03.manage.microsoft.com
 wip.mam.manage.microsoft.com
 mam.manage.microsoft.com
 *.manage.microsoft.com
+ztd.dds.microsoft.com
+cs.dds.microsoft.com
 
 # Also use this great whitelist: https://github.com/ookangzheng/blahdns/blob/master/hosts/whitelist.txt

@@ -345,5 +345,9 @@ mam.manage.microsoft.com
 *.manage.microsoft.com
 ztd.dds.microsoft.com
 cs.dds.microsoft.com
+*intel.com
+*nuvoton.com
+intel.com
+nuvoton.com
 
 # Also use this great whitelist: https://github.com/ookangzheng/blahdns/blob/master/hosts/whitelist.txt

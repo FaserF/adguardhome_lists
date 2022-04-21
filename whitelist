@@ -324,6 +324,8 @@ eu-car.de
 pvn.saturn.de
 w5t5c4e3.rocketcdn.me
 www.androidpolice.com
+abo.zeit.de
+www.docmorris.de
 
 #Tinfoil Shops
 tiny.cc
@@ -349,5 +351,162 @@ cs.dds.microsoft.com
 *nuvoton.com
 intel.com
 nuvoton.com
+
+#Stuff from Adguard German Whitelist: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt
+g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
+jobs.weser-kurier.de#@%#//scriptlet('abort-current-inline-script', 'Math', '/="h[\s\S]{0,5}[\s\S]*t[\s\S]*o[\s\S]*e[\s\S]*\/[\s\S]{0,5}co[\s\S]{0,10}",/')
+static-v*.trbo.com/plugin/trbo_*.js$domain=blau.de
+api-v*.trbo.com/r.php$domain=blau.de
+!+ PLATFORM(ios, ext_android_cb)
+hb.improvedigital.com/pbw/headerlift.min.js$domain=spielen.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=wetteronline.de
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wetteronline.de
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium)
+getjad.io/library/$script,domain=gamepro.de
+getjad.io/prebid/$script,domain=gamepro.de
+!#endif
+heise.de#@#[data-ad-unit]
+sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
+cdntrf.com/prebid/ingame.de/prebid_config.json$domain=ingame.de
+cdntrf.com/lib/templates/index.js$domain=ingame.de
+cdntrf.com/trfAdSetup.js$domain=ingame.de
+reidl.de#@#ins[data-revive-zoneid]
+!#safari_cb_affinity(all)
+heise.de/news^
+heise.de/forum^
+!#safari_cb_affinity
+sportbuzzer.de#@#.dcm-section-wrapper
+!#safari_cb_affinity(general,privacy)
+cdntrf.com/trfAdSetup.js$domain=ingame.de
+cdntrf.com/id-ingame.js$domain=ingame.de
+cdntrf.com/trf-id-instream.js$domain=ingame.de
+!#safari_cb_affinity
+quiz-lounge.com#@#.mt-3
+!#safari_cb_affinity(general,privacy)
+cdntrf.com/trfAdSetup.js$domain=tz.de
+cdntrf.com/trf-tz-only_NATIVE.js$domain=tz.de
+cdntrf.com/prebid/tz.de/prebid_config.json$domain=tz.de
+!#safari_cb_affinity
+imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.addradio.de
+platform-modules.sgweb.softgames.de/ads/p2-ads-client.js$domain=games.softgames.com
+!#if (adguard_app_ios || adguard_ext_android_cb)
+dco.smartclip.net/?plc=$domain=spiele.rtl.de
+des.smartclip.net/ads?type=$domain=spiele.rtl.de
+!#endif
+fahrrad.de#@#.is-sponsored
+||widgets.outbrain.com/outbrain.js$script,redirect=noopjs,domain=spiegel.de
+||glomex.com^$popup,badfilter
+player.glomex.com/integration^$domain=t-online.de
+movie.momo-net.com/_embed/video.php$domain=german-porno-deutsch.info
+cdn.stroeerdigitalgroup.de/metatag/live/bauer-tvmovie/metaTag.min.js$domain=tv14.de
+static-v*.trbo.com/plugin/trbo_*.js$domain=o2online.de
+api-v*.trbo.com/r.php$domain=o2online.de
+ravensburger-werbemittel.de/content/wcm/mediadata/images/Werbemittel/$~third-party
+ravensburger.com/content/wcm/mediadata/images/Werbemittel/$domain=ravensburger-werbemittel.de
+businessinsider.de#@#.ll_partnerexpert_widget
+getraenkedienst.com/muenchen/media/image/
+google.com/afs/ads?q=*adsafe$domain=wanted.de
+toolbox.dfb.de/img/partner-logos^
+assets.dfb.de/uploads/*/original_$image
+urlaubspartner.net#@#.werbung
+urlaubspartner.net#@##werbung
+securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamestar.de
+googletagservices.com/tag/js/gpt.js$domain=gamestar.de
+baumberger.shop/cache/style_*_responsive_ad_header.css$~third-party
+baumberger.shop/cache/javascript_*_responsive_ad_footer.js$~third-party
+imasdk.googleapis.com/js/sdkloader/ima3.js$domain=player.motorsport-magazin.com
+cdn.jsdelivr.net/combine/npm/video.js*/dist/video-js.min.css*/videojs-contrib-ads*/dist/videojs.ads.min.css$domain=player.motorsport-magazin.com
+saechsische.de#@?#article,div:-abp-has( > div > .article-section--nad > span:-abp-contains(Anzeige))
+tarnkappe.info#@#.category-advertorial
+hochzeitsportal24.de#@##bannerwerbung
+druckerchannel.de#@##DCGA_CONTAINER
+googletagservices.com/tag/js/gpt.js$domain=cinemaxx.de
+securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=cinemaxx.de
+securepubads.g.doubleclick.net/gampad/ads$domain=cinemaxx.de
+ad.71i.de/somtag/loader/loader.js$domain=atv.at
+imasdk.googleapis.com/js/sdkloader/ima3.js$domain=atv.at
+imasdk.googleapis.com/js/sdkloader/ima3.js$domain=netzwelt.de
+c.amazon-adsystem.com/aax2/apstag.js$domain=fitforfun.de
+a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
+cash.ch#@#.ad-enabled
+golem.de#@%#(function(b,d,e){function a(){}b={get:function(){return a},set:a},d={};Object.defineProperties(d,{spid_control_callback:b,content_control_callback:b,vid_control_callback:b});e=new Proxy({},{get:function(a,c){switch(c){case "config":return d;case "_setSpKey":throw Error();default:return a[c]}},set:function(a,c,b){switch(c){case "config":return!0;case "bootstrap":case "mms":return a[c]=b,!0;default:throw Error();}}});Object.defineProperty(window,"_sp_",{get:function(){return e},set:a})})();
+chip.de#@%#(function(o){function a(a){return{get:function(){return a},set:b}}function b(){}function c(){throw"Adguard: stopped a script execution.";}var d={},e=a(function(a){a(!1)}),f={},g=EventTarget.prototype.addEventListener;o(d,{spid_control_callback:a(b),content_control_callback:a(b),vid_control_callback:a(b)});o(f,{config:a(d),_setSpKey:{get:c,set:c},checkState:e,isAdBlocking:e,getSafeUri:a(function(a){return a}),pageChange:a(b),setupSmartBeacons:a(b)});Object.defineProperty(window,"_sp_",a(f));EventTarget.prototype.addEventListener=function(a){"sp.blocking"!=a&&"sp.not_blocking"!=a&&g.apply(this,arguments)}})(Object.defineProperties);
+saechsische.de#@?#article,div:-abp-has( > .article-fill__section > span:-abp-contains(Anzeige))
+||movie-blog.org^$subdocument,domain=movie-blog.org,badfilter
+turn-on.de#@#.noadblock
+bilder-a.akamaihd.net/ip/js/ipdvdc/blockadblock.min.js$domain=rtl.de
+saechsische.de#@?#article,div:-abp-has(> .landingpage > span:-abp-contains(Anzeige))
+krone.at#@#.ad-container
+buecher.de#@#.top-banners
+prosiebengames.de/modules/custom/adspree_custom/js/colorbox.js
+cdn.stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
+shop.printweb.de/werbung^$domain=printweb.de
+yello.de#@#.advertorial
+c.amazon-adsystem.com/aax2/apstag.js$domain=gamestar.de
+component-vvs.glomex.com/embed^$popup
+cdnstatic.secure.spiegel.de/SP/*/grafik^
+dr-gumpert.de#@#.adsbygoogle
+freundin.de/*_wrapper_format=drupal_ajax
+email.t-online.de#@#.advertising
+api.spendino.de/admanager^
+st.wetteronline.de/dr/*/css/p_*.css
+ad.doubleclick.net/ddm/pfadx^$domain=n-tv.de
+ad-ipd.sxp.smartclip.net/select^$domain=n-tv.de
+openx.gamereactor.dk/www/delivery/fc.php?script=bannerTypeHtml:vastInlineBannerTypeHtml:vastInlineHtml$domain=gamereactor.de
+c.amazon-adsystem.com/aax2/apstag.js$domain=epochtimes.de
+yospace.com/csm/builder/*,proxy$domain=joyn.de
+mediamarkt.de/*/shop^
+frag-mutti.de#@##top-banner
+adspirit.de^$domain=kinopolis.de
+ad.71i.de/somtag/loader/loader.js$domain=promipool.de
+ad.71i.de/somtag/config/promipoolde/default.js$domain=promipool.de
+spieletipps.de#@##leaderboard
+data.lidl.de^$jsinject
+ib.adnxs.com/ptv$domain=tele5.de
+ad-ipd.sxp.smartclip.net/select$domain=tele5.de
+rheinischepostmediengruppe.de#@##banner_carousel
+giga.de#@##teaserheld-header
+catalog.mann-filter.com/media/werbebanner^
+cdn.antenne.de/antenne-de/uploads^
+androidpit.de#@##ad-sticky-container
+cdn.stroeerdigitalgroup.de/metatag/live/bauer-tvmovie/metaTag.min.js$domain=tvmovie.de
+securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=20min.ch
+mytoys.de#@#iframe[width="300"][height="250"]
+sueddeutsche.de#@#.ad
+partnerads.ysm.yahoo.com/ypa/?ct=*suchmaschine.com$domain=suchmaschine.com
+spiele-for-free.de#@#a[href^="http://wlx-secure.com/"]
+s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
+wooco.de#@#.naMediaAd
+pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=autobild.de
+m.tvtoday.de#@#.banner-container
+smartclip.net/?plc=$domain=energy.de
+smartclip.net/ads?type=$domain=energy.de
+islamische-zeitung.de#@#.sb-widget
+schogetten.de#@#.Werbung
+werbung.qs-optiker.de^$domain=werbung.qs-optiker.de
+kachelmannwetter.com#@#iframe[width="300"][height="250"]
+arkadiumhosted.com/API/$generichide
+ww251.smartadserver.com/ac?nwid=*&siteid=$domain=transfermarkt.de
+browsergames.spielen.de#@##gameimage
+kostenlose-online-rechner.de#@##advert1
+kostenlose-online-rechner.de#@##advert2
+rtl.de#@#.rtlde-medium-rectangle
+gntm.connect.prosieben.de^$generichide
+cdn.inside-handy.de/ih/top/
+google-analytics.com/analytics.js^$domain=freshmilk.tv
+assets.sport1.de/bundles/
+doubleclick.net^$domain=video.sport1.de
+nuggad.net^$domain=video.sport1.de
+ad.71i.de^$domain=video.sport1.de
+videoplaza1.tv/proxy/as3_vp_player-ku
+lotto-bw.de^$jsinject
+lustich.de.adadapter.netzathleten-media.de/API-1.0/*/naMediaAd.js$domain=lustich.de
+toggo.de/module/catchup/admeta.php
+cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json$domain=rtl.de
+smartadserver.com/ac?$domain=bildderfrau.de
+spiele.rtl.de/landingpage/index/$document
+ad3.adfarm1.adition.com^$domain=servustv.com,other
+api.ebay-kleinanzeigen.de/api/ads/
 
 # Also use this great whitelist: https://github.com/ookangzheng/blahdns/blob/master/hosts/whitelist.txt

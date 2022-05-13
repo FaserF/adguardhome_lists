@@ -99,3 +99,6 @@ ad.doubleclick.net
 vas-v4.p7s1video.net
 androidtvchannels-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
+saumeechoa.com
+gapscult.com
+isthereanythingleft.com

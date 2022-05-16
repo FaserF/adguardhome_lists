@@ -111,3 +111,7 @@ nsyqoqeaeikr.com
 web-guardian.xyz
 cyber-guard.me
 robotchecked.com
+global.adserver.yahoo.com
+analytics.yahoo.com
+api-hotjar.com
+hotjar-analytics.com

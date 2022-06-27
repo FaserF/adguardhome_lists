@@ -516,7 +516,8 @@ api.ebay-kleinanzeigen.de/api/ads/
 xh.video
 nvms4.cdn.privatehost.com
 amp-api-edge.apps.apple.com
-
+analytics-api.home-assistant.io
+www.hanutariegel.de
 
 # Spotify's Anti-Adveritsing blocking servers, tricking services to stop music services (DONT BLOCK THESE!):
 gcdn.2mdn.net

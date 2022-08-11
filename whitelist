@@ -336,27 +336,6 @@ cdn.privatehost.com
 tiny.cc
 rebrand.ly
 
-#Microsoft Autopilot
-https://ekop.intel.com/ekcertservice
-https://ekcert.spserv.microsoft.com/EKCertificate/GetEKCertificate/v1
-https://ftpm.amd.com/pki/aia
-login.microsoftonline.com
-*.officeconfig.msocdn.com
-config.office.com
-enterpriseregistration.windows.net
-portal.manage.microsoft.com
-m.manage.microsoft.com	
-fef.msuc03.manage.microsoft.com	
-wip.mam.manage.microsoft.com
-mam.manage.microsoft.com
-*.manage.microsoft.com
-ztd.dds.microsoft.com
-cs.dds.microsoft.com
-*intel.com
-*nuvoton.com
-intel.com
-nuvoton.com
-
 #Stuff from Adguard German Whitelist: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt
 g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
 jobs.weser-kurier.de#@%#//scriptlet('abort-current-inline-script', 'Math', '/="h[\s\S]{0,5}[\s\S]*t[\s\S]*o[\s\S]*e[\s\S]*\/[\s\S]{0,5}co[\s\S]{0,10}",/')

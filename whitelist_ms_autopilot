@@ -1,0 +1,116 @@
+#Microsoft Autopilot
+login.microsoftonline.com
+*.officeconfig.msocdn.com
+config.office.com
+enterpriseregistration.windows.net
+portal.manage.microsoft.com
+m.manage.microsoft.com
+fef.msuc03.manage.microsoft.com
+wip.mam.manage.microsoft.com
+mam.manage.microsoft.com
+*.manage.microsoft.com
+ztd.dds.microsoft.com
+cs.dds.microsoft.com
+*intel.com
+*nuvoton.com
+intel.com
+nuvoton.com
+
+##Explicit endpoints for Autopilot
+aka.ms*
+go.microsoft.com
+#Device Authentication endpoints [used to retrieve device metadata]
+login.live.com
+dmd.metaservices.microsoft.com
+#Windows Autopilot endpoints
+ztd.dds.microsoft.com
+cs.dds.microsoft.com
+#TPM Attestation endpoints [If doing WhiteGlove process]
+*.microsoftaik.azure.net
+ekop.intel.com/ekcertservice
+ekcert.spserv.microsoft.com/EKCertificate/GetEKCertificate/v1
+ftpm.amd.com/pki/aia
+#Windows Activation and Licensing endpoints
+activation.sls.microsoft.com
+validation.sls.microsoft.com
+activation-v2.sls.microsoft.com
+validation-v2.sls.microsoft.com
+licensing.mp.microsoft.com
+licensing.md.mp.microsoft.com
+#CRL and OCSP checks to the issuing certificate authorities
+crl.microsoft.com/pki/crl/products/MicProSecSerCA_2007-12-04.crl
+crl.microsoft.com/pki/crl/*
+*microsoft.com/pkiops/*
+ocsp.digicert.com/*
+##Windows Update endpoint and Delivery Optimization
+ctldl.windowsupdate.com
+cs9.wac.phicdn.net
+*.windowsupdate.com
+*.update.microsoft.com
+*hwcdn.net
+*.delivery.mp.microsoft.com
+tsfe.trafficshaping.dsp.mp.microsoft.com
+*.prod.do.dsp.mp.microsoft.com
+*geo-prod.do.dsp.mp.microsoft.com*
+*.dl.delivery.mp.microsoft.com
+*.emdl.ws.microsoft.com adl.windows.com
+#Microsoft Store [includes MSfB]
+*displaycatalog.mp.microsoft.com d
+isplaycatalog.md.mp.microsoft.com
+purchase.mp.microsoft.com
+purchase.md.mp.microsoft.com
+storecatalogrevocation.storequality.microsoft.com
+img-prod-cms-rt-microsoft-com.akamaized.net
+.md.mp.microsoft.com
+pti.store.microsoft.com
+markets.books.microsoft.com
+storeedgefd.dsx.mp.microsoft.com
+livetileedge.dsx.mp.microsoft.com
+share.microsoft.com
+*.microsoft.com.akadns.net
+clientconfig.passport.net windowsphone.com
+*.microsoft.com
+*.s-microsoft.com
+manage.devcenter.microsoft.com
+#NTP Sync endpoint
+time.windows.com
+#Network Connection Status Indicator endpoint
+www.msftconnecttest.com*
+#Diagnostics Data endpoints
+*.events.data.microsoft.com
+*.telemetry.microsoft.com
+watson.*.microsoft.com
+*.vortex-win.data.microsoft.com/collect/v1
+cs11.wpc.v0cdn.net
+cs1137.wpc.gammacdn.net
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+*.blob.core.windows.net
+#Windows Notification Services endpoint
+*.wns.windows.com
+Defender endpoints
+wdcp.microsoft.com
+definitionupdates.microsoft.com
+*.smartscreen.microsoft.com
+*.smartscreen-prod.microsoft.com
+checkappexec.microsoft.com
+#Microsoft Account Access endpoints
+*.login.microsoftonline.com
+*.login.microsoft.com
+login.windows.net
+account.live.com
+signup.live.com
+login.msa.akadns6.net
+us.configsvc1.live.com.akadns.net
+#Intune related endpoints
+portal.manage.microsoft.com
+r.manage.microsoft.com
+m.manage.microsoft.com
+*.manage.microsoft.com
+*.officeconfig.msocdn.com
+config.office.com
+graph.windows.net
+enterpriseregistration.windows.net
+fef.msuc03.manage.microsoft.com
+wip.mam.manage.microsoft.com
+mam.manage.microsoft.com

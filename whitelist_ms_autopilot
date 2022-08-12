@@ -1,4 +1,4 @@
-#Microsoft Autopilot
+# Microsoft Autopilot General
 login.microsoftonline.com
 *.officeconfig.msocdn.com
 config.office.com
@@ -16,33 +16,39 @@ cs.dds.microsoft.com
 intel.com
 nuvoton.com
 
-##Explicit endpoints for Autopilot
+# Explicit endpoints for Autopilot
 aka.ms*
 go.microsoft.com
-#Device Authentication endpoints [used to retrieve device metadata]
+
+# Device Authentication endpoints - used to retrieve device metadata
 login.live.com
 dmd.metaservices.microsoft.com
-#Windows Autopilot endpoints
+
+# Windows Autopilot endpoints
 ztd.dds.microsoft.com
 cs.dds.microsoft.com
-#TPM Attestation endpoints [If doing WhiteGlove process]
+
+# TPM Attestation endpoints - If doing WhiteGlove process
 *.microsoftaik.azure.net
 ekop.intel.com/ekcertservice
 ekcert.spserv.microsoft.com/EKCertificate/GetEKCertificate/v1
 ftpm.amd.com/pki/aia
-#Windows Activation and Licensing endpoints
+
+# Windows Activation and Licensing endpoints
 activation.sls.microsoft.com
 validation.sls.microsoft.com
 activation-v2.sls.microsoft.com
 validation-v2.sls.microsoft.com
 licensing.mp.microsoft.com
 licensing.md.mp.microsoft.com
-#CRL and OCSP checks to the issuing certificate authorities
+
+# CRL and OCSP checks to the issuing certificate authorities
 crl.microsoft.com/pki/crl/products/MicProSecSerCA_2007-12-04.crl
 crl.microsoft.com/pki/crl/*
 *microsoft.com/pkiops/*
 ocsp.digicert.com/*
-##Windows Update endpoint and Delivery Optimization
+
+# Windows Update endpoint and Delivery Optimization
 ctldl.windowsupdate.com
 cs9.wac.phicdn.net
 *.windowsupdate.com
@@ -54,7 +60,8 @@ tsfe.trafficshaping.dsp.mp.microsoft.com
 *geo-prod.do.dsp.mp.microsoft.com*
 *.dl.delivery.mp.microsoft.com
 *.emdl.ws.microsoft.com adl.windows.com
-#Microsoft Store [includes MSfB]
+
+# Microsoft Store - includes MSfB
 *displaycatalog.mp.microsoft.com d
 isplaycatalog.md.mp.microsoft.com
 purchase.mp.microsoft.com
@@ -72,11 +79,13 @@ clientconfig.passport.net windowsphone.com
 *.microsoft.com
 *.s-microsoft.com
 manage.devcenter.microsoft.com
-#NTP Sync endpoint
+
+# NTP Sync endpoint
 time.windows.com
 #Network Connection Status Indicator endpoint
 www.msftconnecttest.com*
-#Diagnostics Data endpoints
+
+# Diagnostics Data endpoints
 *.events.data.microsoft.com
 *.telemetry.microsoft.com
 watson.*.microsoft.com
@@ -94,7 +103,8 @@ definitionupdates.microsoft.com
 *.smartscreen.microsoft.com
 *.smartscreen-prod.microsoft.com
 checkappexec.microsoft.com
-#Microsoft Account Access endpoints
+
+# Microsoft Account Access endpoints
 *.login.microsoftonline.com
 *.login.microsoft.com
 login.windows.net
@@ -102,7 +112,8 @@ account.live.com
 signup.live.com
 login.msa.akadns6.net
 us.configsvc1.live.com.akadns.net
-#Intune related endpoints
+
+# Intune related endpoints
 portal.manage.microsoft.com
 r.manage.microsoft.com
 m.manage.microsoft.com

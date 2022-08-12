@@ -115,3 +115,4 @@ global.adserver.yahoo.com
 analytics.yahoo.com
 api-hotjar.com
 hotjar-analytics.com
+owledconside.xyz

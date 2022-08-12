@@ -88,3 +88,12 @@ https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.tx
 https://someonewhocares.org/hosts/zero/hosts
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list
+https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list
+https://www.sunshine.it/blacklist.txt
+https://filters.adtidy.org/extension/ublock/filters/6_optimized.txt
+https://abp.oisd.nl/
+https://tgc.cloud/downloads/iOSAds.txt
+https://filters.adtidy.org/ios/filters/11.txt
+https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/iPv4Hosts.txt
